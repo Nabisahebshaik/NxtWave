@@ -1,0 +1,10 @@
+{
+  "name": "nxtwave-referral-command-center",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NxtWave Growth Challenge - AI Workshop Referral Command Center",
+  "scripts": {
+    "build": "npm --prefix frontend install && npm --prefix frontend run build",
+    "start": "python -m uvicorn main:app --host 0.0.0.0 --port 8000"
+  }
+}

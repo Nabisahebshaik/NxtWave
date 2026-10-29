@@ -1,8 +1,11 @@
-# 🚀 NxtWave AI Workshop: Automated WhatsApp Referral Engine & Growth Stack
+# 🚀 NxtWave: AI Workshop WhatsApp Referral Engine & Growth Command Center
 
 A production-grade, highly optimized FastAPI microservice engineered to acquire **500+ college engineering students** in 7 days on a **₹2,000 budget** with a viral $K$-factor $\ge 1.50$.
 
 Integrates **Twilio WhatsApp API**, **OpenAI (`gpt-4o-mini`) Structured Outputs**, and **Google Sheets API CRM** with a **Real-Time Live Web Analytics Command Center**.
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Nabisahebshaik/NxtWave)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Nabisahebshaik/NxtWave)
 
 ---
 
