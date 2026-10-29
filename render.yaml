@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: nxtwave-referral-command-center
+    env: python
+    region: singapore
+    plan: free
+    buildCommand: "pip install -r requirements.txt && cd frontend && npm install && npm run build && cd .."
+    startCommand: "uvicorn main:app --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.13.0
+      - key: GOOGLE_SHEET_NAME
+        value: NxtWave_Registration_CRM
+      - key: MARKETING_BUDGET_INR
+        value: "2000.0"
+      - key: CAMPAIGN_GOAL
+        value: "500"
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: GOOGLE_CREDENTIALS_JSON
+        sync: false

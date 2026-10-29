@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.pytest_cache/
+
+# Node & Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+.npm
+
+# Secrets & Credentials
+.env
+credentials.json
+*.pem
+*.key
+
+# Local Binaries
+cloudflared.exe
+ngrok.exe
+ngrok.zip
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+Desktop.ini
